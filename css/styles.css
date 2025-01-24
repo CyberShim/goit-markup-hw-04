@@ -312,8 +312,8 @@ p {
 .team-list {
   display: flex;
   flex-direction: row;
-  gap: 24px;
   text-align: center;
+  gap: 24px;
 }
 .team-member {
   display: flex;
@@ -355,8 +355,6 @@ p {
 .team-soc-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
-  width: 100%;
 }
 .team-soc-item {
   height: 40px;
