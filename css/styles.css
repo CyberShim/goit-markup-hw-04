@@ -356,7 +356,6 @@ p {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-top: 8px;
   width: 100%;
 }
 .team-soc-item {
