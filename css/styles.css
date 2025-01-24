@@ -313,7 +313,6 @@ p {
   display: flex;
   flex-direction: row;
   text-align: center;
-  gap: 24px;
 }
 .team-member {
   display: flex;
@@ -355,6 +354,8 @@ p {
 .team-soc-list {
   display: flex;
   justify-content: center;
+  gap: 24px;
+  padding-top: 8px;
 }
 .team-soc-item {
   height: 40px;
@@ -539,10 +540,7 @@ p {
   color: #fff;
   margin-bottom: 16px;
 }
-.team-soc-list {
-  margin-top: 0;
-  gap: 16px;
-}
+
 .footer-right-side .team-soc-media:hover,
 .footer-right-side .team-soc-media:focus {
   background-color: #31d0aa;
