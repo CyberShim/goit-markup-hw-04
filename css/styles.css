@@ -161,15 +161,15 @@ p {
   height: auto;
   justify-content: center;
   align-items: center;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   background: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/peopleoffice.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .header-nav-link-current::after {
   content: "";
@@ -355,12 +355,12 @@ p {
 .team-soc-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
   padding-top: 8px;
 }
 .team-soc-item {
   width: 40px;
   height: 40px;
+  gap: 24px;
 }
 .team-soc-media {
   padding: 12px;
@@ -461,16 +461,16 @@ p {
   top: 0;
   left: 0;
   position: absolute;
-  border-color: #4d5ae5;
+  background-color: #4d5ae5;
   transform: translateY(100%);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   overflow: auto;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-item:hover .cover-text {
   transform: translateY(0);
   background-color: #4d5ae5;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-item {
@@ -479,6 +479,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*----------------------- Footer------------------ */
@@ -538,4 +539,8 @@ p {
 .team-soc-list {
   margin-top: 0;
   gap: 16px;
+}
+.footer-right-side .team-soc-media:hover,
+.footer-right-side .team-soc-media:focus {
+  background-color: #31d0aa;
 }
