@@ -326,7 +326,7 @@ p {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 .team-role {
@@ -337,12 +337,12 @@ p {
   text-align: center;
   color: #090a21;
   text-transform: capitalize;
+  padding-bottom: 8px;
 }
 .team-soc-list {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-top: 8px;
 }
 .team-soc-item {
   height: 40px;
@@ -422,7 +422,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 .portfolio-category {
@@ -499,9 +499,6 @@ p {
   display: block;
   max-width: 264px;
 }
-.footer-left-side {
-  margin-right: 120px;
-}
 .footer-right-side {
   width: 208px;
 }
@@ -525,7 +522,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  margin-bottom: 16px;
+  padding-bottom: 16px;
 }
 
 .footer-right-side .team-soc-media:hover,
